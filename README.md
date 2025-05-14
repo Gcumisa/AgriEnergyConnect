@@ -83,7 +83,7 @@ Pre-Populated Data
 The system includes demo accounts:
 
 Role	Email	Password
-Farmer	farmer1@example.com	Farmer123!
+Farmer	farmer1@example.com	Password123!
 Employee	employee1@example.com	Password123!
 
 Schema Overview
