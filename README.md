@@ -62,7 +62,7 @@ cd AgriEnergyConnect
 
 powershell
 
-# Apply migrations
+# 3.Apply migrations
 dotnet ef database update
 3. Configure AppSettings
 
@@ -72,13 +72,13 @@ json
     "DefaultConnection": "Server=lab7L95SR\\SQLEXPRESS;Database=AgriEnergyConnectDb;Trusted_Connection=True;TrustServerCertificate=True;"
   }
 }
-4. Run Application
+## 4. Run Application
 
 bash
 dotnet run
 Database Configuration
 
-Pre-Populated Data
+## 5. Pre-Populated Data
 
 The system includes demo accounts:
 
@@ -86,13 +86,13 @@ Role	Email	Password
 Farmer	farmer1@example.com	Password123!
 Employee	employee1@example.com	Password123!
 
-Schema Overview
+## 6. Schema Overview
 
 Database Diagram
 ![AgriDiagram](https://github.com/user-attachments/assets/b2758280-79b8-4964-929e-6f23d564a6e4)
 
 
-User Roles
+## 7. User Roles
 
 Farmer Account
 
@@ -117,7 +117,9 @@ Development Roadmap
 Add reporting module
 Implement product barcode scanning
 Mobile app integration
-Development Team
+
+## Development Team
+
 Amahle Gcumisa - Lead Developer
 Luthando Gcumisa - UI/UX Designer
 
